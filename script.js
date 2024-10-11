@@ -27,6 +27,16 @@ function hellouser(){
     alert('Vítám tě na webové stránce ' + user)
 }
 
+const seven = document.getElementById("seven")
+
+seven.addEventListener("mouseover", () => {
+  seven.textContent = "Hura, je to tady"
+})
+
+seven.addEventListener("mouseout", () => {
+  seven.textContent = "Původní text";
+})
+
 const eithth = document.getElementById('eighth');
 const eight = document.getElementById('eight');
 

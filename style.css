@@ -1,0 +1,29 @@
+.one{
+    text-align: center;
+    color: blueviolet;
+}
+.two{
+    text-align: center;
+}
+.three{
+    text-align: center;
+}
+.four{
+    text-align: center;
+}
+.five{
+    text-align: center;
+}
+.seven{
+    text-align: center;
+}
+.eight{
+    text-align: center;
+}
+.nine{
+    text-align: center;
+}
+button:hover{
+    font-size: 20px;
+    transition: font-size ease;
+}
